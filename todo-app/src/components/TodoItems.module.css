@@ -1,0 +1,108 @@
+.item {
+    color: #2F2D2E;
+    width: 95%;
+    max-width: 650px;
+    background-color: #fff;
+    margin: 20px auto;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0px 4px 12px rgba(255, 107, 107, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid #cbbebf;
+    /* border-bottom: 2px solid #cbbebf;
+    border-left: px solid #cbbebf; */
+
+}
+
+.item:hover {
+    box-shadow: 0px 8px 20px #090979;
+    transform: translateY(-4px);
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todoText {
+    flex: 1;
+    font-size: 34px;
+    margin: 0;
+    padding-right: 20px;
+    word-wrap: break-word;
+    color: #2F2D2E;
+}
+
+.btn {
+    background-color: #FF8787;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e00e33;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: #dde815;
+    transform: translateY(1px);
+}
+
+.tick {
+    background-color: #8ae13a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin:5px;
+}
+
+.tick:hover {
+    background-color: #0ee065;
+    transform: translateY(-2px);
+}
+
+.tick:active {
+    background-color: #dde815;
+    transform: translateY(1px);
+}
+
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: #72abd4;
+    margin: 16px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .formContainer {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .inputWrapper {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+.mark{
+    text-decoration: line-through;
+}
