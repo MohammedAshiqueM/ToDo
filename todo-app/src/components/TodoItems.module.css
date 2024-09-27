@@ -106,3 +106,14 @@
 .mark{
     text-decoration: line-through;
 }
+
+.editInput{
+    width: 98%;
+    height: 50px;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #72abd4;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
